@@ -4,9 +4,13 @@
 
 - [JIST](#jist)
   - [General Overview and motivations](#general-overview-and-motivations)
-  - [Modules](#modules) - [models](#models) - [data](#data) - [logic](#logic) -
-  [visualization](#visualization) - [terminal](#terminal) -
-  [geographical](#geographical)
+  - [Modules](#modules)
+    - [models](#models)
+    - [data](#data)
+    - [logic](#logic)
+    - [visualization](#visualization)
+      - [terminal](#terminal)
+      - [geographical](#geographical)
   <!--toc:end-->
 
 JIST or just in time scheduling aims to be a comlete data driven system, for
