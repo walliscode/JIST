@@ -13,7 +13,7 @@
       - [geographical](#geographical)
   <!--toc:end-->
 
-JIST or just in time scheduling aims to be a comlete data driven system, for
+JIST or just in time scheduling aims to be a complete data driven system, for
 taking in personnel information and providing various data presentations and
 analysis tools to help with very fast and accurate scheduling of personnel.
 
