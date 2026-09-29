@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "cpp_modules_test/CMakeFiles/uses_std.dir/repeat.cppm.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "repeat",
+          "source-path": "/home/bwallis/projects/walliscode/JIST/cpp_modules_test/repeat.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "std"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

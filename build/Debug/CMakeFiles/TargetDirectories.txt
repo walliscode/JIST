@@ -1,0 +1,9 @@
+/home/bwallis/projects/walliscode/JIST/build/Debug/CMakeFiles/test.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/CMakeFiles/edit_cache.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/uses_std.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/main.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/test.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/edit_cache.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/rebuild_cache.dir
+/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/@cmake_cxx_std.dir

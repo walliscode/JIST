@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test",
+	"dir-cur-src" : "/home/bwallis/projects/walliscode/JIST/cpp_modules_test",
+	"dir-top-bld" : "/home/bwallis/projects/walliscode/JIST/build/Debug",
+	"dir-top-src" : "/home/bwallis/projects/walliscode/JIST",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/@cmake_cxx_std.dir"
+	],
+	"module-dir" : "/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/CMakeFiles/cpp_modules_test.dir",
+	"sources" : 
+	{
+		"cpp_modules_test/CMakeFiles/cpp_modules_test.dir/main.cxx.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/bwallis/projects/walliscode/JIST/cpp_modules_test/main.cxx"
+		}
+	}
+}
