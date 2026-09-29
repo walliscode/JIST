@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/bwallis/projects/walliscode/JIST/build/Debug/cmake_install.cmake",
-		"/home/bwallis/projects/walliscode/JIST/build/Debug/cpp_modules_test/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
