@@ -1,0 +1,2 @@
+-fmodule-file="std=cpp_modules_test/CMakeFiles/@cmake_cxx_std.dir/std.pcm"
+-fmodule-file="repeat=cpp_modules_test/CMakeFiles/uses_std.dir/repeat.pcm"

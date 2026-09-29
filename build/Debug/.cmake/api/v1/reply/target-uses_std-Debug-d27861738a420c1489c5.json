@@ -1,0 +1,172 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "cpp_modules_test/libuses_std.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"cpp_modules_test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std::@ae894cf1e02d4507c0b5"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++23"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "23"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std::@ae894cf1e02d4507c0b5"
+		}
+	],
+	"fileSets" : 
+	[
+		{
+			"baseDirectories" : 
+			[
+				"cpp_modules_test"
+			],
+			"name" : "moduile_files",
+			"type" : "CXX_MODULES",
+			"visibility" : "PRIVATE"
+		},
+		{
+			"baseDirectories" : 
+			[
+				"cpp_modules_test"
+			],
+			"name" : "source_files",
+			"type" : "SOURCES",
+			"visibility" : "PRIVATE"
+		}
+	],
+	"id" : "uses_std::@ae894cf1e02d4507c0b5",
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "@cmake_cxx_std::@ae894cf1e02d4507c0b5"
+		}
+	],
+	"name" : "uses_std",
+	"nameOnDisk" : "libuses_std.a",
+	"paths" : 
+	{
+		"build" : "cpp_modules_test",
+		"source" : "cpp_modules_test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 0,
+			"fileSetIndexes" : 
+			[
+				0
+			],
+			"path" : "cpp_modules_test/repeat.cppm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"backtraces" : 
+			[
+				3
+			],
+			"compileGroupIndex" : 0,
+			"fileSetIndex" : 1,
+			"fileSetIndexes" : 
+			[
+				1
+			],
+			"path" : "cpp_modules_test/uses_std.cxx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

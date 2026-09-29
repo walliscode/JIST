@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "cpp_modules_test",
+					"jsonFile" : "directory-cpp_modules_test-Debug-edf1946fbe3ffc6678e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cpp_modules_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "JIST",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "@cmake_cxx_std::@ae894cf1e02d4507c0b5",
+					"jsonFile" : "target-@cmake_cxx_std-Debug-e52ba2ef857f9ccd64a0.json",
+					"name" : "@cmake_cxx_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@ae894cf1e02d4507c0b5",
+					"jsonFile" : "target-main-Debug-127c6b3da93ee7cdb3bc.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uses_std::@ae894cf1e02d4507c0b5",
+					"jsonFile" : "target-uses_std-Debug-d27861738a420c1489c5.json",
+					"name" : "uses_std",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bwallis/projects/walliscode/JIST/build/Debug",
+		"source" : "/home/bwallis/projects/walliscode/JIST"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
