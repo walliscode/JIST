@@ -51,7 +51,7 @@ Attributes:
 - slot_resolution: The resolution of the schedule slots. Such as 15 minutes, 30
   minutes, 1 hour e.t.c. This is used to determine the granularity of the
   schedule.
-- status: some templated enum? Basically, a way of definitivley describing
+- status: some templated enum? Basically, a way of definitively describing
   status at a given time. Some form of strong union to avoid ambiguity or
   accidental extension as i could imagine happening with a string.
 
