@@ -1,1 +1,2 @@
-export module jist:data;
+export module data;
+export import :models;
