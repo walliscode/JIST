@@ -5,7 +5,7 @@ import std;
 export namespace data::models {
 
 /////////////////////////////////////////////////
-/// @brief Smalled intervel we are concerned about for scheduling, this is
+/// @brief Smallest interval we are concerned about for scheduling, this is
 /// currently a magic number?
 /////////////////////////////////////////////////
 constexpr std::uint8_t kSmallestMinuteInterval{15};
