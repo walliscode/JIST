@@ -8,8 +8,9 @@
     - [models](#models)
     - [data](#data)
     - [logic](#logic)
-    - [visualization](#visualization) - [terminal](#terminal) -
-    [geographical](#geographical)
+  - [visualization](#visualization)
+    - [terminal](#terminal)
+    - [geographical](#geographical)
     <!--toc:end-->
 
 JIST or just in time scheduling aims to be a complete data driven system, for
