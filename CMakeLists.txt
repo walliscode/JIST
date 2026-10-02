@@ -50,7 +50,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/fetch-content-modules")
 include(fetch-content-modules)
 
 # add_subdirectory(config)
-# add_subdirectory(src)
+add_subdirectory(src)
 # add_subdirectory(tests)
 #
 #

@@ -8,10 +8,10 @@
     - [models](#models)
     - [data](#data)
     - [logic](#logic)
-    - [visualization](#visualization)
-      - [terminal](#terminal)
-      - [geographical](#geographical)
-  <!--toc:end-->
+  - [visualization](#visualization)
+    - [terminal](#terminal)
+    - [geographical](#geographical)
+    <!--toc:end-->
 
 JIST or just in time scheduling aims to be a complete data driven system, for
 taking in personnel information and providing various data presentations and
@@ -35,9 +35,26 @@ the layering within modules.
 
 ### models
 
-This describes the core structure of the data and how it is stored and
-manipulated. It includes the data models for everything that needs to be stored
-and the relationships between them.
+The `data` module exports a `models` partition containing the core data
+structures.
+
+#### Schedule
+
+`Schedule` maps each `year_month_day` to a `DailyAvailability` bitset. A daily
+bitset contains 96 slots, each representing 15 minutes. `Operator` and `Pump`
+both store a `Schedule`.
+
+#### Operator
+
+An `Operator` stores a name, a set of skills, a schedule, and a home station ID.
+
+#### Pump
+
+A `Pump` stores a schedule.
+
+#### Station
+
+A `Station` stores an ID.
 
 ### data
 
