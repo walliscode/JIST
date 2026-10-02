@@ -8,10 +8,9 @@
     - [models](#models)
     - [data](#data)
     - [logic](#logic)
-    - [visualization](#visualization)
-      - [terminal](#terminal)
-      - [geographical](#geographical)
-  <!--toc:end-->
+    - [visualization](#visualization) - [terminal](#terminal) -
+    [geographical](#geographical)
+    <!--toc:end-->
 
 JIST or just in time scheduling aims to be a complete data driven system, for
 taking in personnel information and providing various data presentations and
@@ -38,6 +37,35 @@ the layering within modules.
 This describes the core structure of the data and how it is stored and
 manipulated. It includes the data models for everything that needs to be stored
 and the relationships between them.
+
+#### Schedule
+
+This object describes availability for a given time period. This has been
+created with Person in mind, but I imagine it being derived/templated for other
+objects such as Pumps e.t.c.
+
+Attributes:
+
+- start_time: The start time of the schedule.
+- end_time: The end time of the schedule.
+- slot_resolution: The resolution of the schedule slots. Such as 15 minutes, 30
+  minutes, 1 hour e.t.c. This is used to determine the granularity of the
+  schedule.
+- status: some templated enum? Basically, a way of definitivley describing
+  status at a given time. Some form of strong union to avoid ambiguity or
+  accidental extension as i could imagine happening with a string.
+
+#### Person
+
+Describes a single Person and their attributes. This includes availability,
+skills, home station e.t.c
+
+Attributes:
+
+- forename: The first name of the person.
+- surname: The last name of the person.
+- home_station: The station that the person is based at.
+- schedule: a Schedule object that describes the availability of the Person.
 
 ### data
 
